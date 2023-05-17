@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  background: #5bc4e3;
+}
+
+.App {
+  height: 60vh;
+  width: 100vw;
+  font-family: sans-serif;
+  text-align: left;
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+
+.content p {
+  font-weight: 550;
+}
+
+button {
+  font-size: 1rem;
+  padding: 0.5rem;
+  background: white;
+  border: 0;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+svg {
+  transition: all 0.2s;
+  height: 20px;
+}
+
+.rotate {
+  transform: rotate(-180deg);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 0.1rem;
+}
+
+ul li {
+  padding: 0.5rem;
+  width: 250px;
+  background: white;
+  cursor: pointer;
+}
+
+ul li:hover{
+  background: rgb(225, 220, 220);
+}
